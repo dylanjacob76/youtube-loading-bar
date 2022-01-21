@@ -43,6 +43,7 @@ function buttonPress() {
                 // window.location.reload();
                 if (width >= 100) {
                     clearInterval(oneHundredLoadingBar);
+                    window.location.reload();
                 } else {
                     width++;
                     loadingBarItemEl.style.width = width + "%"
